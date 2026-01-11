@@ -52,17 +52,25 @@ pip install -r requirements.txt
 ```
 
 ### Run Demo
-
-**Interactive mode (enter company name):**
 ```bash
-python run_demo.py
+python demo_agent_system.py
 ```
 
-**Direct mode (specify company):**
+The system will research **JPMorgan Chase** by default and display:
+- Complete research and analysis workflow
+- Agent actions logged in real-time
+- Audit trail with cost and performance metrics
+- Exported JSON file with complete audit trail
+
+**To research a different company:**
+Edit line 324 in `demo_agent_system.py`:
+```python
+company = "Tesla"  # Change to any company name
+```
+
+Then run again:
 ```bash
-python run_demo.py Tesla
-python run_demo.py "JPMorgan Chase"
-python run_demo.py Microsoft
+python demo_agent_system.py
 ```
 
 ### Output
