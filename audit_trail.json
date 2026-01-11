@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "total_actions": 3,
+    "total_cost_usd": 0.005,
+    "total_tokens": 303,
+    "actions_by_agent": {
+      "researcher": 1,
+      "analyst": 1,
+      "compliance": 1,
+      "orchestrator": 0
+    },
+    "success_rate": 100.0
+  },
+  "actions": [
+    {
+      "timestamp": "2026-01-10T19:28:40.649037",
+      "agent_role": "researcher",
+      "action_type": "company_research",
+      "input_data": {
+        "company_name": "Google"
+      },
+      "output_data": {
+        "summary": "\nCOMPANY RESEARCH: Google\n\nCompany Overview:\nGoogle is a leading company in its sector with significant market presence. The company has demonstrated consistent performance over recent quarters.\n\nRece..."
+      },
+      "tokens_used": 115,
+      "cost_usd": 0.002,
+      "success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2026-01-10T19:28:40.649077",
+      "agent_role": "analyst",
+      "action_type": "investment_analysis",
+      "input_data": {
+        "company_name": "Google"
+      },
+      "output_data": {
+        "analysis": "\nINVESTMENT ANALYSIS: Google\n\nKey Strengths:\n1. Strong Market Position: Leading player with established brand and customer base\n2. Revenue Growth: Consistent double-digit growth trajectory\n3. Financia..."
+      },
+      "tokens_used": 188,
+      "cost_usd": 0.003,
+      "success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2026-01-10T19:28:40.649129",
+      "agent_role": "compliance",
+      "action_type": "compliance_review",
+      "input_data": {
+        "content_type": "investment_research"
+      },
+      "output_data": {
+        "compliant": true,
+        "risk_message": null
+      },
+      "tokens_used": 0,
+      "cost_usd": 0.0,
+      "success": true,
+      "error_message": null
+    }
+  ]
+}
