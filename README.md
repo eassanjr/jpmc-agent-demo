@@ -168,13 +168,9 @@ Compliance Agent → Regulatory check
 ## 👤 About
 
 **Emmanuel Assan**  
-Product Solutions Director Candidate  
+Periodick.io Presentation to -:
 JPMorgan Chase - Chief Data & Analytics Office
 
-**Experience:**
-- Director, Google Cloud (Vertex AI & Gemini Solutions)
-- VP, Ericsson (World's first commercial 5G platform)
-- 20+ years infrastructure engineering
 
 **This demo represents:**
 - Fast execution (built in one week)
